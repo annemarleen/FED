@@ -23,7 +23,22 @@
     	<p>De <a href="http://www.cmd-amsterdam.nl">vakken</a> gaan over interactie & strategie, -design, - techniek en -cultuur. In de vakken leren studenten te denken en te handelen als een ontwerper. Hiervoor leren ze naast ‘ontwerpen’ ook ‘maken’, ‘onderzoeken’, ‘projectmanagen’ en ‘adviseren’. Studenten kunnen met behulp van keuzevakken, stages en minoren zelf richting geven aan hun opleiding. Na hun afstuderen komen studenten te werken in de creatieve industrie, gericht op de sector ‘nieuwe media’. Het werkveld waarin de interactieve media ontwerper zich begeeft is sterk in ontwikkeling. De opleiding houdt hier met een flexibel curriculum rekening mee en door met (keuze)vakken en projecten in te springen op nieuwe ontwikkelingen.</p>
     </section>
 
-    <video id="sampleMovie" src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" controls></video>
+    <video controls poster="http://camendesign.com/code/video_for_everybody/poster.jpg">
+  		<source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" type="video/mp4">
+  		<source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.webm" type="video/webm">
+ 		<source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv" type="video/ogv">
+ 		<track src="http://developer.longtailvideo.com/trac/export/2584/trunk/jw6/test/assets/captions/bunny-en.vtt" label="English captions" kind="captions" srclang="en-us" default ></track>
+
+ 		<object width="640" height="360" type="application/x-shockwave-flash" data="__FLASH__.SWF">
+			<!-- Firefox uses the `data` attribute above, IE/Safari uses the param below -->
+			<param name="movie" value="__FLASH__.SWF" />
+			<param name="flashvars" value="controlbar=over&amp;image=__POSTER__.JPG&amp;file=__VIDEO__.MP4" />
+			<!-- fallback image. note the title field below, put the title of the video there -->
+			<img src="__VIDEO__.JPG" width="640" height="360" alt="__TITLE__" title="No video playback capabilities, please download the video below" />
+		</object>
+		
+		Your browser does not support the video tag.
+	</video>
 
   </article><h1>Ontwerp opleiding voor Interactieve Media</h1>
   	<section>
