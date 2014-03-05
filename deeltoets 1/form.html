@@ -6,71 +6,123 @@
    <title>Communication and Multimedia Design Amsterdam</title>
 </head>
 <body>
+    <article>
+        <section>
+            <h1>Aanmelden</h1>
+            <p>Bent u geinteresseerd in samenwerken met CMD Amsterdam? Dat kan! Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.</p>
 
-	<form>
-  		<fieldset>
-    		<legend>Contactgegevens</legend>
-    		<ul>
-                <li><label for="name">Naam: *</label></br>
-    		      <input type="text" name="name" placeholder="Naam" autofocus id="name" required>
-                </li>
-    		
-                <li><label for="email">Email: *</label></br>
-    		      <input type="email" name="Email" placeholder="Email" id="email" required>
-                </li>
+            <i>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</i>
 
-    	        <li><label for="Straatnaam">Straatnaam: *</label></br>
-    		      <input type="text" name="Straatnaam" placeholder="Straatnaam" id="straatnaam" required>
-                </li>
+            <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+            Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+            Voor vragen of opmerkingen kunt u <a href="mailto:info@cmd-amsterdam.nl">contact</a> met ons opnemen.</p>
 
-    		    <li><label for="number">Nummer: *</label></br>
-                 <input type="text" name="Nummer" placeholder="Nummer" id="straatnaam" required>
-                </li>
+    	<form>
+      		<fieldset>
+        		<legend>Contactgegevens</legend>
 
-    		    <li><label for="Postcode">Postcode: *</label></br>
-                 <input type="text" name="Postcode" placeholder="Postcode" id="postcode" required>
-                </li>
+        		<label for="name">Naam: *</label>
+        		      <input type="text" style=width:200px name="Name" placeholder="Naam" autofocus id="name" required>
+        		
+                <label for="company">Bedrijf *</label>
+                      <input type="text" style=width:200px name="Company" placeholder="Bedrijf" id="company" required>
 
-    		    <li><label for="Land">Land: *</label></br>
-                 <input type="text" name="Land" placeholder="Land" id="land" required>
-                </li>
+                <label for="streetname">Straatnaam: *</label>
+        		      <input type="text" style=width:200px name="Streetname" placeholder="Straatnaam" id="streetname" required>
 
-    		    <li><label for="Telefoonnummer">Telefoonnummer:</label></br>
-                 <input type="text" name="Telefoonnummer" placeholder="Telefoonnummer" id="telefoonnummer" required>
-                </li>
+                <label for="number">Nummer: *</label>
+                     <input type="text" style=width:200px name="Number" placeholder="Nummer" id="straatnaam" required>
 
- 		</fieldset>
+                <label for="additional">Toevoeging: *</label>
+                     <input type="text" style=width:30px name="Additional" placeholder="A,bis" id="additional" required>
 
- 		<fieldset>
-    		<legend>Voorkeuren</legend>
-    		    
-                <ul>
-                    <li><label for="Lievelingskleur">Lievelingskleur:</label></br>
-                    <input type="color" id="color" placeholder="Rood">
-                    </li>
+                <label for="zipcode">Postcode: *</label>
+                     <input type="text" style=width:200px name="Zip code" placeholder="1000 AB" id="zipcode" required>
 
-    		        <li><label for="month">Leukste maand:</label></br>
-                        <select id="month">
-                            <option>januari</option>
-                            <option>februari</option>
-                            <option>maart</option>
-                            <option>april</option>
-                            <option>mei</option>
-                            <option>juni</option>
-                            <option>juli</option>
-                            <option>augustus</option>
-                            <option>september</option>
-                            <option>oktober</option>
-                            <option>november</option>
-                            <option>december</option>
+                <label for="place">Plaats: *</label>
+                     <input type="text" style=width:200px name="Place" placeholder="Amsterdam" id="place" required>
+
+                <label for="tel">Telefoonnummer:</label>
+                     <input type="text" style=width:200px name="Tel" placeholder="Telefoonnummer" id="tel" required>
+
+                <label for="email">Email: *</label>
+                      <input type="email" style=width:200px name="Email" placeholder="Email" id="email" required>
+            </fieldset>
+            <fieldset>    
+                <legend>Aanmelding Project of Stage</legend>
+                <p><strong>Ik wil mij graag aanmelden voor:</strong>
+                    <input type="checkbox" name="project" value="project">Project</br>
+                    <input type="checkbox" name="stage" value="stage">Stage
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Project</legend>
+                <h1>Projectspecificatie</h1>
+
+                <ol>
+                    <li><label for="title">Titel:</label>
+                        <input type="text" style=width:200px name="title" placeholder="Titel" autofocus id="title" required></li>
+                
+                    <li><label for="assignment">Opdrachtomschrijving</label>
+                        <textarea rows="7" style=width:800px name="assignment" placeholder="max. 200 woorden." id="assignment" required></textarea></li>
+
+                    <li><label for="targetgroup">Doelgroepomschrijving</label>
+                          <textarea rows="4" style=width:800px name="targetgroup" placeholder="max. 100 woorden." id="targetgroup" required></textarea></li>
+
+                    <li><label for="goal">Doelstelling</label>
+                         <input type="text" style=width:200px name="goal" placeholder="max. 50 woorden." id="goal" required></li>
+                    <li><label for="duration">Looptijd</label>
+                         <input type="text" style=width:200px name="duration" placeholder="max. 50 woorden." id="goal" required></li>
+                    <li><select>
+                          <optgroup label="Semester 1">
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                          </optgroup>
+                          <optgroup label="German Cars">
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                          </optgroup>
                         </select>
                     </li>
+     		</fieldset>
+            <fieldset>
+                <legend>Stage</legend>
+                <h1>Stage</h1>
+                <label><b>Geschikt voor:</b></label>
+                    <input type="checkbox" name="tweedejrs" value="tweedejrs">Tweedejaars studenten</br>
+                    <input type="checkbox" name="afstudeer" value="afstudeer">Afstudeer studenten
+                    <input type="checkbox" name="onbekend" value="onbekend">Onbekend
 
-    		       <li><label for="grade">Hoe goed is dit ongeveer?:</label></br>
-                    <input type="range" min="1" max="10" id="grade">
+                <label>Duur:
+                    <input type="radio" name="tien" value="tien">Tien weken
+                <ol>
+                    <li><label for="title">Titel:</label>
+                        <input type="text" style=width:200px name="title" placeholder="Titel" autofocus id="title" required></li>
+                
+                    <li><label for="assignment">Opdrachtomschrijving</label>
+                        <textarea rows="7" style=width:800px name="assignment" placeholder="max. 200 woorden." id="assignment" required></textarea></li>
+
+                    <li><label for="targetgroup">Doelgroepomschrijving</label>
+                          <textarea rows="4" style=width:800px name="targetgroup" placeholder="max. 100 woorden." id="targetgroup" required></textarea></li>
+
+                    <li><label for="goal">Doelstelling</label>
+                         <input type="text" style=width:200px name="goal" placeholder="max. 50 woorden." id="goal" required></li>
+                    <li><label for="duration">Looptijd</label>
+                         <input type="text" style=width:200px name="duration" placeholder="max. 50 woorden." id="goal" required></li>
+                    <li><select>
+                          <optgroup label="Semester 1">
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                          </optgroup>
+                          <optgroup label="German Cars">
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                          </optgroup>
+                        </select>
                     </li>
-    		
- 		</fieldset>
+            </fieldset>
+        
+        <input type="submit">
 	</form>
 </body>
 </html>
