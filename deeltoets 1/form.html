@@ -1,132 +1,131 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <meta charset="UTF-8">
+   <meta charset="utf-8">
    <link rel="stylesheet" href="style.css"/>
    <title>Communication and Multimedia Design Amsterdam</title>
 </head>
 <body>
-    <article>
-        <section>
-            <h1>Aanmelden</h1>
-            <p>Bent u geinteresseerd in samenwerken met CMD Amsterdam? Dat kan! Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+  <article>
+    <section>
+      <h1>Aanmelden</h1>
+      <p>Bent u geinteresseerd in samenwerken met CMD Amsterdam? Dat kan! Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.</p>
 
-            <i>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</i>
+      <em>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</em>
 
-            <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
-            Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
-            Voor vragen of opmerkingen kunt u <a href="mailto:info@cmd-amsterdam.nl">contact</a> met ons opnemen.</p>
+      <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+      Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+      Voor vragen of opmerkingen kunt u <a href="mailto:info@cmd-amsterdam.nl">contact</a> met ons opnemen.</p>
 
     	<form>
-      		<fieldset>
-        		<legend>Contactgegevens</legend>
+    		<fieldset>
+      		<legend>Contactgegevens</legend>
 
-        		<label for="name">Naam: *</label>
-        		      <input type="text" style=width:200px name="Name" placeholder="Naam" autofocus id="name" required>
-        		
-                <label for="company">Bedrijf *</label>
-                      <input type="text" style=width:200px name="Company" placeholder="Bedrijf" id="company" required>
+    		  <label for="name">Naam: *</label>
+    		  <input type="text" style=width:200px placeholder="Naam" autofocus id="name" required>
+    		
+          <label for="company">Bedrijf *</label>
+          <input type="text" style=width:200px placeholder="Bedrijf" id="company" required>
 
-                <label for="streetname">Straatnaam: *</label>
-        		      <input type="text" style=width:200px name="Streetname" placeholder="Straatnaam" id="streetname" required>
+          <label for="streetname">Straatnaam: *</label>
+    		  <input type="text" style=width:200px placeholder="Straatnaam" id="streetname" required>
 
-                <label for="number">Nummer: *</label>
-                     <input type="text" style=width:200px name="Number" placeholder="Nummer" id="straatnaam" required>
+          <label for="number">Nummer: *</label>
+          <input type="text" style=width:200px placeholder="Nummer" id="number" required>
 
-                <label for="additional">Toevoeging: *</label>
-                     <input type="text" style=width:30px name="Additional" placeholder="A,bis" id="additional" required>
+          <label for="additional">Toevoeging: *</label>
+          <input type="text" style=width:30px placeholder="A,bis" id="additional" required>
 
-                <label for="zipcode">Postcode: *</label>
-                     <input type="text" style=width:200px name="Zip code" placeholder="1000 AB" id="zipcode" required>
+          <label for="zipcode">Postcode: *</label>
+          <input type="text" style=width:200px placeholder="1000 AB" id="zipcode" required>
 
-                <label for="place">Plaats: *</label>
-                     <input type="text" style=width:200px name="Place" placeholder="Amsterdam" id="place" required>
+          <label for="place">Plaats: *</label>
+          <input type="text" style=width:200px placeholder="Amsterdam" id="place" required>
 
-                <label for="tel">Telefoonnummer:</label>
-                     <input type="text" style=width:200px name="Tel" placeholder="Telefoonnummer" id="tel" required>
+          <label for="tel">Telefoonnummer:</label>
+          <input type="text" style=width:200px placeholder="Telefoonnummer" id="tel" required>
 
-                <label for="email">Email: *</label>
-                      <input type="email" style=width:200px name="Email" placeholder="Email" id="email" required>
-            </fieldset>
-            <fieldset>    
-                <legend>Aanmelding Project of Stage</legend>
-                <p><strong>Ik wil mij graag aanmelden voor:</strong>
-                    <input type="checkbox" name="project" value="project">Project</br>
-                    <input type="checkbox" name="stage" value="stage">Stage
-                </p>
-            </fieldset>
-            <fieldset>
-                <legend>Project</legend>
-                <h1>Projectspecificatie</h1>
+          <label for="email">Email: *</label>
+          <input type="email" style=width:200px placeholder="Email" id="email" required>
 
-                <ol>
-                    <li><label for="title">Titel:</label>
-                        <input type="text" style=width:200px name="title" placeholder="Titel" autofocus id="title" required></li>
-                
-                    <li><label for="assignment">Opdrachtomschrijving</label>
-                        <textarea rows="7" style=width:800px name="assignment" placeholder="max. 200 woorden." id="assignment" required></textarea></li>
+          <label for="core">Core Business *</label>
+          <textarea rows="4" style=width:200px placeholder="Max. 100 woorden." id="core" required></textarea> 
 
-                    <li><label for="targetgroup">Doelgroepomschrijving</label>
-                          <textarea rows="4" style=width:800px name="targetgroup" placeholder="max. 100 woorden." id="targetgroup" required></textarea></li>
+          <label for="sector">Sector *</label>
+          <input type="text" style=width:200px placeholder="Max. 100 woorden." id="sector" required>
 
-                    <li><label for="goal">Doelstelling</label>
-                         <input type="text" style=width:200px name="goal" placeholder="max. 50 woorden." id="goal" required></li>
-                    <li><label for="duration">Looptijd</label>
-                         <input type="text" style=width:200px name="duration" placeholder="aantal weken." id="goal" required></li>
-                    <!--
-                    <li><select>
-                          <optgroup label="Semester 1">
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                          </optgroup>
-                          <optgroup label="German Cars">
-                            <option value="mercedes">Mercedes</option>
-                            <option value="audi">Audi</option>
-                          </optgroup>
-                        </select>
-                    </li>
-                    -->
-     		</fieldset>
-            <fieldset>
-                <legend>Stage</legend>
-                <h1>Stage</h1>
-                <label><b>Geschikt voor:</b></label>
-                    <input type="checkbox" name="tweedejrs" value="tweedejrs">Tweedejaars studenten</br>
-                    <input type="checkbox" name="afstudeer" value="afstudeer">Afstudeer studenten
-                    <input type="checkbox" name="onbekend" value="onbekend">Onbekend
-                <!--
-                <label>Duur:
-                    <input type="radio" name="tien" value="tien">Tien weken
-                -->
-                <ol>
-                    <li><label for="title">Titel:</label>
-                        <input type="text" style=width:200px name="title" placeholder="Titel" autofocus id="title" required></li>
-                
-                    <li><label for="assignment">Opdrachtomschrijving</label>
-                        <textarea rows="7" style=width:800px name="assignment" placeholder="max. 200 woorden." id="assignment" required></textarea></li>
+        </fieldset>
 
-                    <li><label for="targetgroup">Doelgroepomschrijving</label>
-                          <textarea rows="4" style=width:800px name="targetgroup" placeholder="max. 100 woorden." id="targetgroup" required></textarea></li>
+        <fieldset>    
+          <legend>Aanmelding Project of Stage</legend>
+          <label>Ik wil mij graag aanmelden voor:</label>
+          <input type="radio" name="aanmeldkeuze" value="project">Project
+          <input type="radio" name="aanmeldkeuze" value="stage">Stage
+        </fieldset>
 
-                    <li><label for="goal">Doelstelling</label>
-                         <input type="text" style=width:200px name="goal" placeholder="max. 50 woorden." id="goal" required></li>
-                    <li><label for="duration">Looptijd</label>
-                         <input type="text" style=width:200px name="duration" placeholder="aantal weken." id="goal" required></li>
-                    <!-- <li><select>
-                          <optgroup label="Semester 1">
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                          </optgroup>
-                          <optgroup label="German Cars">
-                            <option value="mercedes">Mercedes</option>
-                            <option value="audi">Audi</option>
-                          </optgroup>
-                        </select>
-                    </li>-->
-                </ol>
-            </fieldset>
-        
+        <fieldset>
+          <legend>Project</legend>
+
+          <label for="title">Titel:</label>
+          <input type="text" style=width:200px placeholder="Titel" autofocus id="title" required>
+          
+          <label for="assignment">Opdrachtomschrijving</label>
+          <textarea rows="7" style=width:800px placeholder="Max. 200 woorden." id="assignment" required></textarea>
+
+          <label for="targetgroup">Doelgroepomschrijving</label>
+          <textarea rows="4" style=width:800px placeholder="Max. 100 woorden." id="targetgroup" required></textarea>
+
+          <label for="goal">Doelstelling</label>
+          <input type="text" style=width:200px placeholder="Max. 50 woorden." id="goal" required>
+
+          <label for="duration">Looptijd</label>
+          <input type="text" style=width:200px placeholder="Aantal weken." id="duration" required>
+
+          <label for="deadline">Deadline</label>
+          <input type="date" style=width:200px id="deadline" required>
+
+          <label><b>Geschikt voor:</b></label>
+          <input type="checkbox" value="eerstejrs">Eerstejaars studenten
+          <input type="checkbox" value="tweedejrs">Tweedejaars studenten
+          <input type="checkbox" value="derdejrs">Derdejaars studenten
+          <input type="checkbox" value="afstudeer">Afstudeer studenten
+          <input type="checkbox" value="onbekend">Onbekend
+
+          <label for="remarksproject">Opmerkingen</label>
+          <textarea rows="7" style=width:800px placeholder="Max. 200 woorden." id="remarksproject" required></textarea>
+          
+ 	      </fieldset>
+        <fieldset>
+          <legend>Stage</legend>
+
+          <label><b>Geschikt voor:</b></label>
+          <input type="checkbox" value="tweedejrs">Tweedejaars studenten
+          <input type="checkbox" value="afstudeer">Afstudeer studenten
+          <input type="checkbox" value="onbekend">Onbekend
+      
+          <select>
+            <optgroup label="Korte Stage">
+              <option value="kortestage">8-10 weken</option>
+            </optgroup>
+            <optgroup label="Afstudeerstage">
+              <option value="afstudeerstage">20 weken</option>
+            </optgroup>
+          </select>
+
+          <label for="start">Startdatum</label>
+          <input type="date" style=width:200px id="start" required>
+
+          <label for="activities">Omschrijving Werkzaamheden</label>
+          <textarea rows="7" style=width:800px placeholder="max. 200 woorden." id="activities" required></textarea>
+
+          <label for="remarksstage">Opmerkingen</label>
+          <textarea rows="7" style=width:800px placeholder="Max. 200 woorden." id="remarksstage" required></textarea>
+
+        </fieldset>
+      
         <input type="submit">
-	</form>
+      </form>
+    </section>
+  </article>
 </body>
 </html>
